@@ -1,8 +1,4 @@
-Language: Python ![](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=openai&logoColor=FFFFFF)
-
-
-#3776AB
-
+![](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=openai&logoColor=FFFFFF)
 ## Introduction
 Here is a python implementation of bloom filter in mysql, we merge the bloom filter's add, check, reset operation with mysql's insert, select, and truncate operations. 
 Additionally, we ensure the filter is persisted to disk aftereach commit operation To maintain consistency between the Bloom Filter and the table in mysql.
